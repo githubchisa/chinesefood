@@ -1,0 +1,628 @@
+
+@media screen and (max-width: 2000px){
+header .navi{
+  cursor: url('images/mausucursor.png'),pointer ;
+    position: absolute;
+    padding-left: 20px;
+}
+}
+@media screen and (max-width: 480px){
+  header .navi{
+    cursor: url('images/mausucursor.png'),pointer ;
+    position: absolute;
+    padding-left: 20px;
+}
+}
+
+@media screen and (max-width: 2000px){
+header .vertical{
+  cursor: url('/images/mausucursor.png'),pointer ;
+    writing-mode: vertical-lr;
+    font-family:'Yusei Magic', sans-serif;
+    color: #240F00;
+    
+    margin-left: 40px;
+    font-size: 55px;
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 480px){
+  header .vertical{
+    cursor: url('/images/mausucursor.png'),pointer ;
+    writing-mode: vertical-lr;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #240F00;
+    
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 2000px){
+  
+header .navi img{
+  cursor: url('/images/mausucursor.png'),pointer ;
+   padding-left: 30px;
+}
+}
+
+@media screen and (max-width: 480px){
+  header .navi img{
+    width:40%;
+    padding-left: 15px;
+ }
+}
+header .logo{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+position: absolute;
+right: 10px;
+width: 80px;
+}
+
+header .logo img{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    margin-top: 2px;
+    width: 100%;  
+}
+
+.menu1{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+font-family: 'Yusei Magic', sans-serif;
+padding-top: 250px;
+    margin-left: 180px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 2000px){
+.asetto img{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+position: absolute;
+left:505px;
+top:200px;
+
+animation: poyoyon3 2.5s infinite;
+opacity: 1;
+}
+}
+
+
+
+@keyframes poyoyon3 {
+  0% {
+    transform: translateX(140px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+  }
+  65% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  20%,100% {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .asetto img{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    width:25%;
+    position: absolute;
+    left:95px;
+    top:180px;
+    }
+}
+
+@media screen and (max-width: 2000px){
+.float-left {
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+font-size: 30px;
+margin-left: -500px;
+padding-top: 200px;
+text-align: center;
+float: left;
+font-family:  'Yusei Magic', sans-serif;
+
+
+}
+
+}
+
+@media screen and (max-width: 860px){
+
+  .float-left {
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+  font-size: 10px;
+  margin-left: -500px;
+  padding-top: 200px;
+  text-align: center;
+  float: left;
+  font-family: 'Yusei Magic', sans-serif;
+  
+  
+  }
+}
+
+.wrap{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+padding-top: 210px;
+}
+
+@media screen and (max-width: 480px){
+.item img{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+  width: 100%;
+  margin-top:75px;
+  padding-right:400px;
+  animation: poyoyon3 2.5s infinite;
+opacity: 1;
+}
+
+
+@keyframes poyoyon3 {
+  0% {
+    transform: translateX(140px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+  }
+  65% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  20%,100% {
+    opacity: 1;
+  }
+}
+
+
+}
+@media screen and (max-width: 2000px){
+
+.item +.item{
+    margin-left:10.0em;
+  }
+}
+
+@media screen and (max-width: 2000px){
+  .item p{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      text-align: center;
+      padding-left: 15px;
+      padding-top: 190px;
+     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .item p{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    margin-left:82px;
+    margin-right: -333px;
+    padding-top: 340px;
+   font-size: 30px;
+}
+}
+@media screen and (max-width: 2000px){
+  .item h2{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      text-align: center;
+      font-size: 40px;
+  }
+ 
+
+}
+@media screen and (max-width: 480px){
+  .item h2{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    margin-right: -430px;
+    font-size:35px;
+}
+
+}
+
+@media screen and (max-width: 2000px){
+  .wrap2{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+padding-top: 150px;
+}
+}
+
+@media screen and (max-width: 480px){
+  .wrap2{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+padding-top: 150px;
+}
+}
+.item2 +.item2 {
+    margin-left:8.0em;
+  }
+  @media screen and (max-width: 2000px){
+  .item2 img{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      width: 90%;
+      
+  }
+}
+
+@media screen and (max-width: 480px){
+  .item2 img{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    width: 70%;
+    margin-top: -108px;
+    padding-right: 158px;
+    margin-left: 472px;
+      
+  }
+}
+@media screen and (max-width: 2000px){
+  .item2 p{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-right: 160px;
+    padding-top: 190px;
+   font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .item2 p{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-right: 68px;
+    padding-top: 210px;
+    font-size: 30px;
+    margin-left: -46px;
+
+  }
+}
+
+@media screen and (max-width: 2000px){
+  .item2 h3{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    font-size: 40px;
+    padding-right: 180px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .item2 h3{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-right: 160px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 2000px){
+
+  .wrap3{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+padding-top: 70px;
+ 
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  .wrap3{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+padding-top: 70px;
+ 
+  }
+}
+
+  .item3 +.item3{
+    margin-left:13.0em;
+  }
+
+  @media screen and (max-width: 2000px){
+  .item3 p{
+    
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-left: 13px;
+    padding-top: 200px;
+   font-size: 30px;
+}
+  }
+
+  @media screen and (max-width: 480px){
+    .item3 p{
+      
+      cursor: url('/images/1x/mausucursor.png'),pointer ;
+      text-align: center;
+      padding-left: 13px;
+      padding-top: 200px;
+     font-size: 30px;
+     margin: auto;
+  }
+    }
+
+
+@media screen and (max-width: 2000px){
+  .item3 h4{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 10px;
+  }
+  }
+  
+
+@media screen and (max-width: 480px){
+.item3 h4{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 2000px){
+.item3 img{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    margin-top: 15px;
+}
+}
+
+@media screen and (max-width: 480px){
+  .item3 img{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    width: 50%;
+    margin-top: -48px;
+    padding-right: 398px;
+    margin-left: 463px;
+  }
+  }
+
+
+.wrap4{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+padding-top: 120px;
+}
+  
+.item4 +.item4 {
+    margin-left:8.0em;
+  }
+
+  @media screen and (max-width: 2000px){
+  .item4 img{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    width: 700px;
+    
+   margin-left:-100px;
+    
+}
+  }
+
+
+  @media screen and (max-width: 480px){
+    .item4 img{
+      cursor: url('/images/1x/mausucursor.png'),pointer ;
+      width: 700px;
+      
+     margin-left:-100px;
+      
+  }
+    }
+
+    @media screen and (max-width: 2000px){
+      .item4 p{
+        cursor: url('/images/1x/mausucursor.png'),pointer ;
+          text-align: center;
+          padding-right: 160px;
+          padding-top: 190px;
+         font-size: 30px;
+        }
+      }
+      
+    @media screen and (max-width: 480px){
+.item4 p{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-right: 160px;
+    padding-top: 190px;
+   font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 2000px){
+  .item4 h5{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    font-size: 40px;
+    padding-right: 180px;
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .item4 h5{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    font-size: 40px;
+    padding-right: 180px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 2000px){
+  .wrap5{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      position: absolute;
+      top: 2220px;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+width: 100%;
+padding-top: 0%;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .wrap5{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      position: absolute;
+      top: 2220px;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    flex-direction:row-reverse;  
+font-family:'Yusei Magic', sans-serif;
+width: 100%;
+padding-top: 0%;
+  }
+
+}
+
+  .item5 +.item5{
+    margin-left:13.0em;
+  }
+
+  @media screen and (max-width: 2000px){
+    .item5 img{
+      cursor: url('/images/1x/mausucursor.png'),pointer ;
+        width: 450px;
+      
+      margin-right: 150px;
+    }
+  }
+
+  @media screen and (max-width: 480px){
+  .item5 img{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      width: 450px;
+    
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 2000px){
+  .item5 p{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 200px;
+   font-size: 30px;
+}
+}
+
+@media screen and (max-width: 480px){
+  .item5 p{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 200px;
+   font-size: 30px;
+}
+}
+
+
+
+@media screen and (max-width: 2000px){
+.item5 h6{
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-right:50px;
+}
+}
+
+@media screen and (max-width: 480px){
+  .item5 h6{
+    cursor: url('/images/1x/mausucursor.png'),pointer ;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 10px;
+      padding-right:50px;
+  }
+  }
+
+
+/*.float-left h2{
+    position: absolute;
+   left: 340px;
+   font-size: 45px;
+    padding-top:10px ;
+   
+}
+ 
+.float-right img{
+    margin-top: 200px;
+ margin-left: 700px;
+   width: 40%;
+   float: right;
+  
+}*/
+
+.pagetop {
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+	color: #fff;
+	background-color:  rgb(12, 133, 28);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pagetop:hover {
+  cursor: url('/images/1x/mausucursor.png'),pointer ;
+	color: #fff !important;
+	background-color: #ed702b;
+	text-decoration: none;
+}
+
