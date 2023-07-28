@@ -3,14 +3,14 @@
 
 
 .cursor{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
  }
 
 @media screen and (max-width: 2000px){
 
   
   .img{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
   width:100%;
   margin: auto;
 }
@@ -18,7 +18,7 @@
 
 @media screen and (max-width:960px) {
   .img{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     width:75%;
     margin: auto;
   }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width:480px) {
   .img{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     width:40%;
     margin: auto;
   }
@@ -35,7 +35,7 @@
 
 
 .shutter{/*オープニングシャッター用*/
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     position:fixed;
     top:0;
     left:0;
@@ -49,7 +49,7 @@
   }
 
   .shutter::before {
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     content: '';
     position: absolute;
     top: 0;
@@ -63,7 +63,7 @@
     animation: shutterOpen 3.0s forwards;
   }
   .content {
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     -webkit-animation: contentScale 3.0s forwards;
             animation: contentScale 3.0s forwards;
   }
@@ -97,7 +97,7 @@
   }
 
 a:link, a:visited, a:active {
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     color: #bF1A00;
     text-decoration: none;
   }
@@ -108,7 +108,7 @@ a:link, a:visited, a:active {
   }
 
 header {
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     position: relative;
 width: 1080px;
 margin:0 auto;
@@ -116,7 +116,7 @@ margin:0 auto;
 @media screen and (max-width: 2000px){
 
 header .navi{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     position: absolute;
     top:15px;
   left:-70px;
@@ -125,7 +125,7 @@ header .navi{
 @media screen and (max-width: 480px){
   
   header .navi{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     position: absolute;
     top:15px;
     left:0px;
@@ -134,7 +134,7 @@ header .navi{
 
 @media screen and (max-width: 2000px){
 header .navi p{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     top:10px;
     color: #bF1A00;
     display: inline-block;
@@ -150,7 +150,7 @@ header .navi p{
 }
 @media screen and (max-width: 480px){
   header .navi p{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     flex-direction: column;
     top:10px;
     color: hsl(8, 100%, 37%);
@@ -217,7 +217,7 @@ header .hover p:hover{
 }
 @media screen and (max-width: 2000px){
 header .logo{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     width: 250px;
     margin: 0 auto;
     transition: 1s;
@@ -232,7 +232,7 @@ header .logo{
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
   header .logo{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     width: 200px;
     margin: 0 auto;
     margin-left: 130px;
@@ -262,14 +262,14 @@ header .logo{
 }
 @media screen and (max-width: 2000px) {
   header .logo img{
-    cursor: url('..../images/mausucursor.png'),pointer ;
+    cursor: url('..../images/mausucursor.cur'),pointer ;
       margin-top: 150px;
       width: 100%;    
   }
 }
 @media screen and (max-width: 480px) {
   header .logo img{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
       width: 100%;  
       padding-top:180px;
     
@@ -291,7 +291,7 @@ header .logo{
 
 
 .vertical{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     writing-mode: vertical-lr;
     font-family: 'Yusei Magic', sans-serif;;
     color: #bF1A00;
@@ -302,7 +302,7 @@ header .logo{
 
 
 .flex{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     display: flex;
    justify-content:space-between;
    
@@ -310,17 +310,17 @@ header .logo{
 
 @media screen and (max-width: 2000px){
 .shinsen{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     width: 1380px;
     margin: auto;
 }
 
 .shinsen :hover{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
 }
 
 .shinsen img{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
   margin: auto;
    margin-top: 170px;
    width:100%
@@ -330,14 +330,14 @@ header .logo{
 
 @media screen and (max-width:480px){
   .shinsen{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
       width: 980px;
   }
   .shinsen :hover{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
   }
   .shinsen img{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     margin:auto;
       margin-top: 170px;
      width:40%
@@ -347,7 +347,7 @@ header .logo{
   
 
 .p{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
 font-size: 30px;
     margin-top: 190px;
     font-family: 'Yusei Magic', sans-serif;
@@ -357,7 +357,7 @@ font-size: 30px;
 }
 
  .menu{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     width:1080;
     width: 100%;
     
@@ -371,7 +371,7 @@ font-size: 30px;
 }
 
 .menu h1{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     font-size: 55px;
    padding-left: 240px;
    padding-top: 130px;
@@ -380,7 +380,7 @@ font-size: 30px;
   
 
 .asetto img{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
     margin-top: 110px ;
     margin-left: 410px;
     width: 580px;
@@ -390,7 +390,7 @@ font-size: 30px;
   
 
   .asetto img{
-    cursor: url('../images/mausucursor.png'),pointer ;
+    cursor: url('../images/mausucursor.cur'),pointer ;
     margin-left: -75px;
     
     width: 200%;
@@ -400,7 +400,7 @@ font-size: 30px;
 
   @media screen and (max-width: 2000px){
 h2{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
    font-family:'Yusei Magic', sans-serif;
    color: #240F00;
    text-align: center;
@@ -412,7 +412,7 @@ h2{
   }
   @media screen and (max-width: 860px){
     h2{
-      cursor: url('../images/mausucursor.png'),pointer ;
+      cursor: url('../images/mausucursor.cur'),pointer ;
       font-family:'Yusei Magic', sans-serif;
       color: #240F00;
       text-align: center;
@@ -435,7 +435,7 @@ h2{
 @media screen and (max-width: 2000px){
   
 .container{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
   position: relative;
   width: 500px;
   height: 500px;;
@@ -446,7 +446,7 @@ h2{
 
   @media screen and (max-width: 480px){
     .container{
-      cursor: url('/../images/mausucursor.png'),pointer ;
+      cursor: url('/../images/mausucursor.cur'),pointer ;
       position: relative;
       width: 500px;
       height: 500px;;
@@ -455,18 +455,18 @@ h2{
   }
 
 .sliderbox{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
   overflow: hidden;
 }
 
 .sliderlist{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
   display: flex;
   list-style: none;
 }
 
 .sliderlist__item{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
   flex-shrink: 0;
   width: 600px; /*それぞれの画像の感覚の幅？*/
   height: 600px;
@@ -477,7 +477,7 @@ h2{
 
 /* 矢印 */
 .prev{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
   position: absolute;
   top: 50%;
   left: -5%;
@@ -495,7 +495,7 @@ h2{
   
 }
 .next{
-  cursor: url('../images/mausucursor.png'),pointer ;
+  cursor: url('../images/mausucursor.cur'),pointer ;
   position: absolute;
   top: 50%;
   right: -5%;
@@ -520,7 +520,7 @@ h2{
       }
       
       .container{
-        cursor: url('/../images/mausucursor.png'),pointer ;
+        cursor: url('/../images/mausucursor.cur'),pointer ;
         position: relative;
         width: 500px;
         height: 500px;;
@@ -528,18 +528,18 @@ h2{
       }
       
       .sliderbox{
-        cursor: url('/../images/mausucursor.png'),pointer ;
+        cursor: url('/../images/mausucursor.cur'),pointer ;
         overflow: hidden;
       }
       
       .sliderlist{
-        cursor: url('/../images/mausucursor.png'),pointer ;
+        cursor: url('/../images/mausucursor.cur'),pointer ;
         display: flex;
         list-style: none;
       }
       
       .sliderlist__item{
-        cursor: url('/../images/mausucursor.png'),pointer ;
+        cursor: url('/../images/mausucursor.cur'),pointer ;
         flex-shrink: 0;
         width: 500px;/*それぞれの画像の感覚の幅？*/
         height: 500px;
@@ -551,7 +551,7 @@ h2{
       
       /* 矢印 */
       .prev{
-        cursor: url('../images/mausucursor.png'),pointer ;
+        cursor: url('../images/mausucursor.cur'),pointer ;
         position: absolute;
         top: 50%;
         left: -5%;
@@ -569,7 +569,7 @@ h2{
         
       }
       .next{
-        cursor: url('../images/mausucursor.png'),pointer ;
+        cursor: url('../images/mausucursor.cur'),pointer ;
         position: absolute;
         top: 50%;
         right: -5%;
@@ -589,7 +589,7 @@ h2{
      /*
      @media screen and (max-width: 2000px){
 .container{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
     display: flex;
     justify-content:space-between;
     grid:20%;
@@ -607,7 +607,7 @@ h2{
 /*
 @media screen and (max-width: 2000px){
 .parent {
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
     display: flex;
     text-align: center;
    
@@ -619,7 +619,7 @@ h2{
 
 @media screen and (max-width: 860px){
   .parent {
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -634,14 +634,14 @@ h2{
 @media screen and (max-width: 2000px){
   
 .child{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
     width: 40%;
     
 }
 }
 @media screen and (max-width: 860px){
   .child{
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
     margin:70px;
     width:120%;
     margin-right:100px;
@@ -654,14 +654,14 @@ h2{
   
     margin:10px;
     transition-duration: 0.5s;
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
 }
 
 .scale-img:hover{
  
     transform:scale(1.1,1.1);
     cursor:pointer;
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
 }
 
 }
@@ -669,7 +669,7 @@ h2{
 @media screen and (max-width: 860px){
   .container{
  
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -677,7 +677,7 @@ h2{
   }
 
   .scale-img{
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
    
     margin-top: 170px;
     margin:90px;
@@ -687,16 +687,16 @@ h2{
 }
 
 .annin{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
   margin-right: 860px;
 }
 
 .hiyashi{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
   margin-right: 560px;
 }
 .scale-img:hover{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
     transform:scale(1.1,1.1);
     cursor:pointer;
     
@@ -708,7 +708,7 @@ h2{
 */
 
 h3{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
     color: #240F00;
     font-family:'Yusei Magic', sans-serif;
     margin-top: 170px;
@@ -717,7 +717,7 @@ h3{
 }
 
 .group1{
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 30px;
     color:#2B5100;
@@ -733,7 +733,7 @@ h3{
 
   .location-map{
     
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
     margin-top: 190px;
     width: 60%;
     margin: auto;
@@ -743,17 +743,17 @@ h3{
   @media screen and (max-width: 860px){
 
     .location-map{
-      cursor: url('/../images/mausucursor.png'),pointer ;
+      cursor: url('/../images/mausucursor.cur'),pointer ;
   flex-direction: column;
   }
   .location-map,
   
   .location-map iframe{
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
     width: 100%;
   }
   .location-map iframe{
-    cursor: url('/../images/mausucursor.png'),pointer ;
+    cursor: url('/../images/mausucursor.cur'),pointer ;
   margin-bottom: 30px;
   }
 
@@ -777,7 +777,7 @@ h3{
 	border-radius: 3.3rem;
 	text-align: center;
 	cursor: pointer; 
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
 }
  
 
@@ -786,5 +786,5 @@ h3{
 	color: #fff !important;
 	background-color: #ed702b;
 	text-decoration: none;
-  cursor: url('/../images/mausucursor.png'),pointer ;
+  cursor: url('/../images/mausucursor.cur'),pointer ;
 }
