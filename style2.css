@@ -4,6 +4,7 @@ header .navi{
   cursor: url('images/mausucursor.png'),pointer ;
     position: absolute;
     padding-left: 20px;
+    background-color: #ed702b;
 }
 }
 @media screen and (max-width: 480px){
