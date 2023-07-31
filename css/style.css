@@ -468,7 +468,7 @@ h2{
 .sliderlist__item{
   cursor: url('/../images/mausucursor.cur'),pointer ;
   flex-shrink: 0;
-  width: 600px; /*それぞれの画像の感覚の幅？*/
+  width: 500px; /*それぞれの画像の感覚の幅？*/
   height: 600px;
 }
 
