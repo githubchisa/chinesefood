@@ -716,6 +716,35 @@ h3{
     font-size: 45px;
 }
 
+@media screen and (max-width:2000px){
+.store img {
+text-align: center;
+width: 44%;
+margin-top: 130px;
+
+}
+
+.store{
+  text-align: center;
+}
+
+}
+
+
+@media screen and (max-width:480px){
+  .store img {
+  text-align: center;
+  width: 100%;
+  margin-top: 130px;
+  
+  }
+  
+  .store{
+    text-align: center;
+  }
+  
+  }
+
 .group1{
   cursor: url('/../images/mausucursor.cur'),pointer ;
     font-family: 'Yusei Magic', sans-serif;
