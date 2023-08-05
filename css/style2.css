@@ -375,6 +375,7 @@ padding-top: 70px;
         margin-top: -48px;
         padding-right: 398px;
         margin-left: 463px;
+
       }
       }
 
@@ -386,24 +387,23 @@ padding-top: 70px;
     padding-left: 13px;
     padding-top: 200px;
    font-size: 30px;
+   
+
 }
   }
-
   @media screen and (max-width: 480px){
     .item3 p{
-      font-size: 30px;
-
-      /*cursor: url('../images/mausucursor.png'),pointer ;
-      text-align: center;
-      padding-right: 68px;
-      padding-top: 210px;
-      margin-left: -46px;
-      display: inline;
-      */
-      
-
-  }
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 100px;
+    font-size: 30px;
+    display: inline;
+    white-space: nowrap;
+    position: absolute;
     }
+  }
+
+
 
 
 @media screen and (max-width: 2000px){
@@ -421,9 +421,12 @@ padding-top: 70px;
 .item3 h4{
   cursor: url('../images/mausucursor.png'),pointer ;
   text-align: center;
-  margin-right: -430px;
-  font-size:35px;
+  margin-left: -250px;
+  margin-top: 550px;
+  font-size: 30px;
   display: inline;
+  white-space: nowrap;
+  position: absolute;
 }
 }
 
@@ -471,7 +474,7 @@ padding-top: 120px;
   @media screen and (max-width: 2000px){
   .item4 img{
     cursor: url('../images/mausucursor.png'),pointer ;
-    width: 700px;
+    width: 650px;
     
    margin-left:-100px;
     
@@ -484,6 +487,8 @@ padding-top: 120px;
       cursor: url('../images/mausucursor.png'),pointer ;
       max-width: 500px;
       margin-right: -320px;
+      margin-top: 100px;
+      position: absolute;
      
   }
     }
@@ -500,11 +505,15 @@ padding-top: 120px;
       
     @media screen and (max-width: 480px){
 .item4 p{
+  width: 500px;
+  height: 80px;
   cursor: url('../images/mausucursor.png'),pointer ;
   text-align: center;
-  padding-right: 50px;
-  padding-top: 200px;
+  padding-right: 55px;
+  padding-top: 400px;
   font-size: 30px;
+  margin-left: -406px;
+  position: absolute;
   
   }
 }
@@ -524,11 +533,12 @@ padding-top: 120px;
   .item4 h5{
     cursor: url('../images/mausucursor.png'),pointer ;
     text-align: center;
-    padding-left: -100px;
-    padding-top: 200px;
+    margin-left: -250px;
+    margin-top: 550px;
     font-size: 30px;
     display: inline;
     white-space: nowrap;
+    position: absolute;
     
   }
 }
@@ -583,7 +593,7 @@ padding-top: 0%;
     cursor: url('../images/mausucursor.png'),pointer ;
     width: 340px;
     margin-right: 20px;
-    margin-top: 280px;
+    margin-top: 200px;
   }
 }
 
@@ -599,11 +609,14 @@ padding-top: 0%;
 
 @media screen and (max-width: 480px){
   .item5 p{
+    width: 400px;
+    height: 80px;
     cursor: url('../images/mausucursor.png'),pointer ;
     text-align: center;
     padding-right: 50px;
-    padding-top: 200px;
+    padding-top: 530px;
    font-size: 30px;
+   position: absolute;
 }
 }
 
@@ -626,7 +639,9 @@ padding-top: 0%;
     font-size: 30px;
     margin-left: 147px;
     margin-right: -152px;
+    margin-top: 700px;
     white-space: nowrap;
+    position: absolute;
   }
   }
 
